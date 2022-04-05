@@ -27,7 +27,7 @@ accept, reject, chat, mesaje de grup, you have it all!
 - GUI: JavaFX
 - Bază de date: PostgreSQL
 
-##Rulare
+## Rulare
 Înainte de a porni aplicația este necesar să se creeze baza de date în PostgreSQL (cu numele 
 "SocialNetwork"), după care se va acționa butonul de Run din proiect. Fiecare câmp al fiecărui tabel 
 se regăseste în fișierele de Repository (src\main\java\socialnetwork\repository\database) în funcțiile
