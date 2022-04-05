@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="512.0" prefWidth="706.0" style="-fx-background-color: white;" stylesheets="@../css/login.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="socialnetwork.controller.LoginController">
+   <children>
+      <Button fx:id="loginButton" layoutX="467.0" layoutY="390.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="38.0" prefWidth="149.0" text="Login" AnchorPane.leftAnchor="467.0" />
+      <ImageView fx:id="logoImageView" fitHeight="440.0" fitWidth="500.0" layoutX="103.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Imagini/Dmid-Login-megastore-1-logo.gif" />
+         </image></ImageView>
+      <Button fx:id="exitButton" layoutX="467.0" layoutY="445.0" mnemonicParsing="false" onAction="#handleExit" prefHeight="38.0" prefWidth="149.0" text="Exit" AnchorPane.leftAnchor="467.0" />
+      <TextField fx:id="emailTextField" alignment="CENTER" layoutX="466.0" layoutY="296.0" promptText="Enter email" AnchorPane.leftAnchor="466.0" />
+      <Button layoutX="615.0" layoutY="337.0" mnemonicParsing="false" onMousePressed="#handleEyePressed" onMouseReleased="#handleEyeReleased" prefHeight="26.0" prefWidth="34.0" AnchorPane.leftAnchor="615.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Imagini/eye-open-512.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <PasswordField fx:id="passwordField" alignment="CENTER" layoutX="466.0" layoutY="338.0" promptText="Enter password" AnchorPane.leftAnchor="466.0" />
+      <Label alignment="CENTER" layoutX="509.0" layoutY="246.0" prefHeight="38.0" prefWidth="62.0" text="Login">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="251.0" prefHeight="27.0" prefWidth="149.0" text="Create an account">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="290.0" text="First name" AnchorPane.bottomAnchor="201.0" AnchorPane.leftAnchor="36.0" />
+      <Label layoutX="36.0" layoutY="325.0" text="Last name" AnchorPane.bottomAnchor="165.0" AnchorPane.leftAnchor="36.0" />
+      <Label layoutX="36.0" layoutY="358.0" text="Email" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="36.0" />
+      <Label layoutX="36.0" layoutY="395.0" text="Password" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="36.0" />
+      <PasswordField fx:id="password1Field" alignment="CENTER" layoutX="97.0" layoutY="389.0" promptText="Enter password" AnchorPane.bottomAnchor="92.0" AnchorPane.leftAnchor="97.0" />
+      <TextField fx:id="email1TextField" alignment="CENTER" layoutX="97.0" layoutY="355.0" promptText="Enter e-mail" AnchorPane.bottomAnchor="126.0" AnchorPane.leftAnchor="97.0" />
+      <TextField fx:id="lastNameTextField" alignment="CENTER" layoutX="97.0" layoutY="320.0" promptText="Enter last name" AnchorPane.bottomAnchor="161.0" AnchorPane.leftAnchor="97.0" />
+      <TextField fx:id="firstNameTextField" alignment="CENTER" layoutX="97.0" layoutY="286.0" promptText="Enter first name" AnchorPane.bottomAnchor="195.0" AnchorPane.leftAnchor="97.0" />
+      <Button layoutX="95.0" layoutY="464.0" mnemonicParsing="false" onAction="#handleRegisterButton" prefHeight="38.0" prefWidth="149.0" text="Register" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="95.0" />
+      <Label layoutX="36.0" layoutY="428.0" text="Password" AnchorPane.bottomAnchor="63.0" AnchorPane.leftAnchor="36.0" />
+      <PasswordField fx:id="password1Field2" alignment="CENTER" layoutX="97.0" layoutY="423.0" promptText="Re-enter password" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="97.0" />
+      <Button layoutX="246.0" layoutY="390.0" mnemonicParsing="false" onMousePressed="#handleEyePressed1" onMouseReleased="#handleEyeReleased1" prefHeight="26.0" prefWidth="34.0" AnchorPane.bottomAnchor="92.0" AnchorPane.leftAnchor="246.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Imagini/eye-open-512.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="246.0" layoutY="423.0" mnemonicParsing="false" onMousePressed="#handleEyePressed2" onMouseReleased="#handleEyeReleased2" prefHeight="26.0" prefWidth="34.0" AnchorPane.bottomAnchor="59.0" AnchorPane.leftAnchor="246.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Imagini/eye-open-512.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="passwordTextField" alignment="CENTER" layoutX="466.0" layoutY="338.0" />
+      <TextField fx:id="passwordTextField1" alignment="CENTER" layoutX="97.0" layoutY="389.0" />
+      <TextField fx:id="passwordTextField2" alignment="CENTER" layoutX="97.0" layoutY="423.0" />
+   </children>
+</AnchorPane>

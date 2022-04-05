@@ -1,0 +1,6 @@
+.root {
+    -fx-background-color: moccasin;
+}
+.button {
+    -fx-background-radius: 10px;
+}

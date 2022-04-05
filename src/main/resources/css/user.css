@@ -1,0 +1,55 @@
+.root {
+    -fx-background-color: #ffefd5;
+}
+.button {
+    -fx-background-radius: 20px;
+    //-fx-background-color: Moccasin;
+   // -fx-border-color: Grey;
+    -fx-border-radius: 20px;
+}
+.table-column {
+    -fx-alignment: CENTER;
+}
+.tab-pane>*.tab-header-area>*.tab-header-background
+{
+    -fx-background-color: -fx-outer-border, -fx-text-box-border, moccasin;
+}
+.table-view {
+    -fx-background-color: PAPAYAWHIP;
+}
+
+.table-view .column-header {
+    -fx-background-color: Moccasin;
+    -fx-font-size: 20px;
+}
+.table-view .table-cell{
+    -fx-border-color: papayawhip;
+    -fx-padding: 2 0 2 10px;
+}
+
+.tab-pane {
+    -fx-tab-max-height: 0 ;
+}
+.tab-pane .tab-header-area {
+    visibility: hidden ;
+}
+.list-view .list-cell:odd {
+    -fx-content-display:left;
+}
+
+.list-view .list-cell:even {
+    -fx-content-display:right;
+}
+
+.list-cell{
+    -fx-font-size:20.0;
+}
+
+.table-view .table-cell {
+    -fx-font-size: 20px;
+}
+
+.date-picker {
+    -fx-font: 20px "Arial";
+}
+
