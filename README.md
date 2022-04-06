@@ -4,6 +4,12 @@ SocialNetwork este un proiect care reprezintă un model simplificat al unei reț
 însa din care pot fi extrase informații relevante. Conturi de utilizatori, cereri de prietenie, 
 accept, reject, chat, mesaje de grup, you have it all! 
 
+## Tehnologii
+
+- Limbaj de programare: Java 
+- GUI: JavaFX
+- Bază de date: PostgreSQL
+
 ## Funcționalități de bază
 
 - Autentificare utilizator (logare/ delogare)
@@ -20,12 +26,6 @@ accept, reject, chat, mesaje de grup, you have it all!
 - Repository paginat (datele sunt afișate paginat)
 - Citire date din baza de date (PostgreSQL)
 - Parole hash-uite în baza de date
-
-## Tehnologii
-
-- Limbaj de programare: Java 
-- GUI: JavaFX
-- Bază de date: PostgreSQL
 
 ## Rulare
 Înainte de a porni aplicația este necesar să se creeze baza de date în PostgreSQL (cu numele 
